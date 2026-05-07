@@ -1,11 +1,11 @@
-# ⚡ Python Multi-Threaded Port Scanner
+# Python Multi-Threaded Port Scanner
 
 A high-performance multi-threaded TCP port scanner developed in Python using socket programming and concurrent execution techniques.
 This project demonstrates core software engineering concepts such as network communication, concurrency, CLI development, and scalable task execution.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 The Port Scanner is a command-line networking utility that scans a target host for open TCP ports within a specified range.
 It uses Python’s `socket` module for low-level network communication and `ThreadPoolExecutor` for concurrent scanning to improve performance and efficiency.
@@ -20,7 +20,7 @@ This project was built to strengthen practical understanding of:
 
 ---
 
-## ✨ Features
+## Features
 
 * Multi-threaded TCP port scanning
 * Customizable port range
@@ -32,7 +32,7 @@ This project was built to strengthen practical understanding of:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology         | Purpose                   |
 | ------------------ | ------------------------- |
@@ -43,7 +43,7 @@ This project was built to strengthen practical understanding of:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text id="emf51r"
 port-scanner/
@@ -55,7 +55,7 @@ port-scanner/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Clone the repository:
 
@@ -77,7 +77,7 @@ python port_scanner.py <target>
 
 ---
 
-## ▶️ Usage Examples
+## Usage Examples
 
 ### Basic Scan
 
@@ -99,7 +99,7 @@ python port_scanner.py 192.168.1.1 --start 1 --end 1000 --threads 200
 
 ---
 
-## 🧠 Core Engineering Concepts
+## Core Engineering Concepts
 
 ### Concurrent Execution
 
@@ -126,7 +126,7 @@ The modular scanning logic allows future enhancements such as:
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ```text id="1sl3a0"
 Scanning scanme.nmap.org from port 1 to 100...
@@ -137,7 +137,7 @@ Scanning scanme.nmap.org from port 1 to 100...
 
 ---
 
-## 🔒 Security & Ethical Usage
+## Security & Ethical Usage
 
 This project is intended for:
 
@@ -150,7 +150,7 @@ Users should only scan systems they own or have explicit permission to test.
 
 ---
 
-## 📈 Potential Improvements
+## Potential Improvements
 
 * Asynchronous scanning with asyncio
 * Service/version fingerprinting
@@ -163,6 +163,6 @@ Users should only scan systems they own or have explicit permission to test.
 
 ---
 
-## 👨‍💻 Developer Note
+## Developer Note
 
 This project was developed as part of hands-on learning in networking, backend systems, and concurrent software engineering concepts using Python.
